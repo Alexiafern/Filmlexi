@@ -1,0 +1,51 @@
+body{
+    background-color: #f8f8f8; /* Cor de fundo */
+}
+
+/* Formulário */
+
+#form-container{
+    background-color: #fff;
+    border-radius: 20px; /* Borda arredondada */
+    box-shadow: .5px 10px 15px rgba(0,0,0, .2);
+    margin: 25px auto;
+    padding: 25px;
+}
+
+
+#form-container .form-control{
+    border: none;
+    border-bottom: 1px solid #CCC;
+    border-radius: 0;
+}
+
+#form-container .form-control:focus{
+    box-shadow: none;
+}
+
+#form-container .form-floating label{
+    color: #CCC;
+}
+
+.center-image{
+    background-size: cover;
+    background-position: center;
+}
+
+.row{
+    margin-bottom: 2rem;
+    
+}
+
+.row.align-items-center {
+    align-content: center;
+    height: 100%;
+  }
+  
+ a{
+    color: #f8f8f8;
+ }
+ a:hover{
+    color: #fff;
+ }
+/* Fim - Formulário */
